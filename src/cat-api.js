@@ -2,6 +2,7 @@ import Notiflix from 'notiflix';
 import 'notiflix/dist/notiflix-3.2.6.min.css';
 import axios from 'axios';
 
+// Ustawiamy nagłówek 'x-api-key' dla wszystkich żądań Axios na określoną wartość klucza API.
 axios.defaults.headers.common['x-api-key'] =
   'live_NqFkZFiU9gyob8GubmTSncsKzDekwNgPBgOQgrn0qboaNt8sORlowmRODbnyLm81';
 
